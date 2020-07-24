@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+{% seo %}
+
+<link rel="stylesheet" href="{{ "/assets/core.css" | prepend: site.baseurl | prepend: site.url }}">
+
+{% feed_meta %}
+
+<link rel="icon" sizes="192x192" href="{{ "/assets/favicon-192x192.png" | prepend: site.baseurl | prepend: site.url }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/touch-icon-180x180.png" | prepend: site.baseurl | prepend: site.url }}">
+
+{% if site.mathjax %}
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+{% endif %}

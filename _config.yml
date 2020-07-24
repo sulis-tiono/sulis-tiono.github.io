@@ -1,0 +1,60 @@
+# Site Info
+title:              "Sulistiono"
+tagline:            "Simple note"
+description:        "Sulistiono's simple note"
+google_site_verification:      nGUHc-P1KrLWgaQSmLNdIFM-c0dIvVcOFCXaJGU5-K0
+
+# Site settings
+url:                "https://tionosulis.github.io"
+baseurl:            ""
+logo_url:           https://avatars1.githubusercontent.com/u/24350097?v=4 # Get it from GitHub API: https://api.github.com/users/<username>
+permalink:          /:title
+timezone:           Asia/Jakarta
+mathjax:            false  # enables support for mathjax - set to false to disable
+
+# Author
+author:             Sulistiono
+twitter:          
+  username:         tionosulis_
+  card:             summary
+
+# Social
+social:
+  name:             Sulistiono
+  links:
+    - https://twitter.com/tionosulis_
+    - https://github.com/tionosulis
+
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-feed
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
