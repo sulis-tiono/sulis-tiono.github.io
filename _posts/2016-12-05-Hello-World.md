@@ -6,4 +6,4 @@ lang:
 author:
 twitter: tionosulis_
 ---
-Hi, this's my first (`.md`) post, to make sure that the setup is right. Nothing much to write here, but: ***Hello world!***.
+Hi, this's my first **`.md`** post, to make sure that the setup is right. Nothing much to write here, but: **Hello world!**.
