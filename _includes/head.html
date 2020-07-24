@@ -5,9 +5,7 @@
 {% seo %}
 
 <link rel="stylesheet" href="{{ "/assets/core.css" | prepend: site.baseurl | prepend: site.url }}">
-
-{% feed_meta %}
-
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 <link rel="icon" sizes="192x192" href="{{ "/assets/favicon-192x192.png" | prepend: site.baseurl | prepend: site.url }}">
 <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/touch-icon-180x180.png" | prepend: site.baseurl | prepend: site.url }}">
 
