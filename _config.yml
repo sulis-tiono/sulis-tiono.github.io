@@ -39,8 +39,6 @@ exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "scr
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jemoji
-  - jekyll-feed
 
 defaults:
   -
