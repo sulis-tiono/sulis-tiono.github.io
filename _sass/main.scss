@@ -404,3 +404,25 @@ section {
     -webkit-transform: none;
   }
 }
+//custom rules
+*:target { background-color: yellow;
+}
+//social share
+ul.share-buttons {
+  display: inline-table;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ul.share-buttons li {
+  float: left;
+}
+ul.share-buttons li h4 {
+  padding-top: 24px;
+  border-bottom: 1px solid #ddd;
+}
+ul.share-buttons li a {
+  border-style: none;
+  padding-left: 5px;
+}
