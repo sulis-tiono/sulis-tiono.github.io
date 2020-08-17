@@ -409,7 +409,7 @@ section {
 }
 //social share
 ul.share-buttons {
-  display: inline-table;
+  display: inline-block;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -417,12 +417,13 @@ ul.share-buttons {
 }
 ul.share-buttons li {
   float: left;
+  position: relative;
 }
 ul.share-buttons li h4 {
-  padding-top: 24px;
   border-bottom: 1px solid #ddd;
 }
 ul.share-buttons li a {
+  display: block;
   border-style: none;
-  padding-left: 5px;
+  margin-top: -23px;
 }
