@@ -408,23 +408,19 @@ section {
 *:target { background-color: yellow;
 }
 //social share
-ul.share-buttons {
+.share-buttons {
   display: inline-block;
   list-style: none;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
+  padding-top: 20px;
 }
-ul.share-buttons li {
+.share-buttons h4 {
+  margin-top: 0;
   float: left;
-  position: relative;
-}
-ul.share-buttons li h4 {
   font-size: small;
-  border-bottom: 1px solid #ddd;
+  color: #999;
 }
-ul.share-buttons li a {
-  display: block;
-  border-style: none;
-  margin-top: -22px;
+.share-buttons a {
+  padding-left: 3px;
+  border-color: red;
 }
