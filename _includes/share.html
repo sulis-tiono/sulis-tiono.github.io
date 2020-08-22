@@ -1,3 +1,5 @@
-<div class="share-buttons">
-  <h4>Share:</h4><a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ page.url | uri_escape }}&via={{ site.twitter.username }}&related={{ site.twitter.username }}" rel="nofollow" target="_blank" title="Share on Twitter"><img src="assets/twitter.svg" class="svg" alt="Tweet"></a>
-</div>
+<section class="share">
+ <h4>Share:</h4>
+  <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter.username }}&related={{ site.twitter.username }}" rel="nofollow" target="_blank" title="Share on Twitter"><img src="assets/twitter.svg" class="svg" alt="Tweet">
+  </a>
+</section>
