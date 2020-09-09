@@ -2,9 +2,7 @@
 layout: post
 title: 'Investor Tips: There is An Opportunity in Every Situation'
 description: Quote about opportunity in every situation on stock market
-lang:	
-author:
-twitter: tionosulis_
+tag: quote
 ---
 >Investor Tips: There is An Opportunity in Every Situation.  
 --<cite>RTI, Literacy News</cite> 
