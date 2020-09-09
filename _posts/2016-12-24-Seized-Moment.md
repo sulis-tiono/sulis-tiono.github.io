@@ -2,9 +2,7 @@
 layout: post
 title: "Investor Tips: Seize The Moment"
 description: Quote about seizing the moment to become success on stock market
-lang:	
-author:
-twitter: tionosulis_
+tag: quote
 ---
 >Investor Tips: Seize The Moment  
 --<cite>RTI, Literacy News</cite>
