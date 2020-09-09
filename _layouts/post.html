@@ -7,12 +7,20 @@ layout: default
 	<div class="center">
 		<h1 class="title">{{ page.title }}</h1>
 		<time class="code">{{ page.date | date: '%B %-d, %Y' }}</time>
+	{% include reading-time.html %}
+    <span class="tag">
+  {% for tag in page.tags %}
+    {% capture tag_name %}{{ tag }}{% endcapture %}
+    <a href="/tag/{{ tag_name }}"><code>&#35;{{ tag_name }}</code></a>
+  {% endfor %}
+    </span>
 	</div>
 
 	<div class="divider"></div>
 
 	{{ content }}
-	{% include share.html %}
+	{% if page.share %}{% include share.html %}
+	{% endif %}
 
 </article>
 
