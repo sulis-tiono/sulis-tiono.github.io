@@ -504,7 +504,6 @@ blockquote:before {
 }
 .info {
   border-color: #0074D9;
-  background-color: mix(#fff, #0074d9, 90%);
 }
 .info:before {
   content: "i";
@@ -512,7 +511,6 @@ blockquote:before {
 }
 .success {
   border-color: #2ECC40;
-  background-color: mix(#fff, #2ecc40, 90%);
 }
 .success:before {
   content: "√";
@@ -520,7 +518,6 @@ blockquote:before {
 }
 .warning {
   border-color: #FFDC00;
-  background-color: mix(#fff, #ffdc00, 90%);
 }
 .warning:before {
   content: "!";
@@ -528,7 +525,6 @@ blockquote:before {
 }
 .error {
   border-color: #FF4136;
-  background-color: mix(#fff, #ff4136, 90%);
 }
 .error:before {
   content: "X";
