@@ -186,11 +186,10 @@ pre,
   font-family: Consolas, monaco, monospace;
 }
 code {
-  color: #444;/*f14e32*/
-  background: #fefefe;
+  color: #f14e32;
+  background: #f9f9f9;
   padding: 2px 5px;
   font-size: 0.8667em;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
 }
 pre {
   display: block;
@@ -239,7 +238,7 @@ article {
     font-size: 1.7em;
   }
   .divider {
-    background: #555;
+    background: #aaa;
     height: 1px;
     margin: 2em 0 3em;
   }
@@ -431,6 +430,7 @@ section {
   line-height: 1;
   vertical-align: middle ;
   fill: currentColor;
+  filter: invert(.1);
 }
 .tag {
   display: block;
@@ -442,7 +442,7 @@ section {
   }
 }
 .tag a {
-  padding: 0 0.4rem;
+  padding: 0 0.2em;
   border-bottom: none;
 }
 .post-desc {
@@ -473,12 +473,17 @@ blockquote:before {
   content: "\201D";
 }
 .notice {
-  font-size: 0.9em;
+  font-size: 0.933em;
   position: relative;
   margin: 2.5rem 0;
   background: #f9f9f9;
   padding: 1em 1em 1em 3em;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
+  code {
+    background: inherit;
+    color: inherit;
+    font-weight: bold;
+  }
 }
 .notice:before {
   position: absolute;
